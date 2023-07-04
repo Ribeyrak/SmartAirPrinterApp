@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C80652322A4464DD0099888A /* TestPrintGuideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80652312A4464DD0099888A /* TestPrintGuideVC.swift */; };
+		C80652342A448C960099888A /* FifthGuideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80652332A448C960099888A /* FifthGuideVC.swift */; };
+		C806523A2A44B6160099888A /* SixthGuideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80652392A44B6160099888A /* SixthGuideVC.swift */; };
+		C806523C2A45C3920099888A /* GuideTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C806523B2A45C3920099888A /* GuideTableViewCell.swift */; };
+		C806523F2A45CD9F0099888A /* SeventhGuideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C806523E2A45CD9F0099888A /* SeventhGuideVC.swift */; };
+		C80652422A4995F90099888A /* FindingPrintersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80652412A4995F90099888A /* FindingPrintersVC.swift */; };
+		C80652442A4996530099888A /* PrintOptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80652432A4996530099888A /* PrintOptionsVC.swift */; };
+		C80652462A49E9590099888A /* PrintOptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80652452A49E9590099888A /* PrintOptionsTableViewCell.swift */; };
+		C806524F2A4C5F070099888A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C806524E2A4C5F060099888A /* CoreData.framework */; };
+		C80652522A4C5F550099888A /* FilesDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C80652502A4C5F540099888A /* FilesDataModel.xcdatamodeld */; };
+		C806525A2A4C6B270099888A /* Files+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80652582A4C6B270099888A /* Files+CoreDataProperties.swift */; };
+		C806525C2A4C735C0099888A /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C806525B2A4C735C0099888A /* CoreDataManager.swift */; };
+		C80D188A2A39E105001A30D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D18892A39E105001A30D8 /* AppDelegate.swift */; };
+		C80D188C2A39E105001A30D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D188B2A39E105001A30D8 /* SceneDelegate.swift */; };
+		C80D188E2A39E105001A30D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D188D2A39E105001A30D8 /* ViewController.swift */; };
+		C80D18932A39E107001A30D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C80D18922A39E107001A30D8 /* Assets.xcassets */; };
+		C80D18962A39E107001A30D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80D18942A39E107001A30D8 /* LaunchScreen.storyboard */; };
+		C80D18A22A39E84C001A30D8 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D18A12A39E84C001A30D8 /* NavBarController.swift */; };
+		C80D18A42A39E935001A30D8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D18A32A39E935001A30D8 /* TabBarController.swift */; };
+		C80D18A72A39FD61001A30D8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C80D18A62A39FD61001A30D8 /* SnapKit */; };
+		C80D18AA2A3A16B4001A30D8 /* UIView + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D18A92A3A16B4001A30D8 /* UIView + Ext.swift */; };
+		C80D18AE2A3A1701001A30D8 /* NextScreenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D18AD2A3A1701001A30D8 /* NextScreenButton.swift */; };
+		C866C7B52A41D5820039FB99 /* FirstGuideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C866C7B42A41D5820039FB99 /* FirstGuideVC.swift */; };
+		C866C7B72A41EBA50039FB99 /* SecondGuideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C866C7B62A41EBA50039FB99 /* SecondGuideVC.swift */; };
+		C8BC63962A43329000A4BEC0 /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = C8BC63952A43329000A4BEC0 /* Reachability */; };
+		C8BC63982A4346B600A4BEC0 /* ThirdGuideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BC63972A4346B600A4BEC0 /* ThirdGuideVC.swift */; };
+		C8C693392A4F1251008D90DB /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C693382A4F1251008D90DB /* ImageViewController.swift */; };
+		C8C6933B2A52D6FE008D90DB /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C6933A2A52D6FE008D90DB /* TextViewController.swift */; };
+		C8C6933D2A5325D9008D90DB /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C6933C2A5325D9008D90DB /* WebViewController.swift */; };
+		C8C6933F2A532D0B008D90DB /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C6933E2A532D0B008D90DB /* WebVC.swift */; };
+		C8C693422A5376B2008D90DB /* EmailPrintVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C693412A5376B2008D90DB /* EmailPrintVC.swift */; };
+		C8D235422A3B417F00887E85 /* UIColor + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D235412A3B417F00887E85 /* UIColor + Ext.swift */; };
+		C8D235442A3B41AE00887E85 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D235432A3B41AE00887E85 /* Resources.swift */; };
+		C8D235462A3B4C5A00887E85 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D235452A3B4C5A00887E85 /* BaseController.swift */; };
+		C8D2354D2A3B4E5600887E85 /* PrinterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D2354C2A3B4E5600887E85 /* PrinterController.swift */; };
+		C8D2354F2A3B4E9F00887E85 /* PhotosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D2354E2A3B4E9F00887E85 /* PhotosController.swift */; };
+		C8D235512A3B4EC300887E85 /* FilesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D235502A3B4EC300887E85 /* FilesController.swift */; };
+		C8D235532A3B4EDD00887E85 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D235522A3B4EDD00887E85 /* SettingsController.swift */; };
+		C8D235552A3B6EEA00887E85 /* PrinterNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D235542A3B6EEA00887E85 /* PrinterNavBar.swift */; };
+		C8D235572A3B6FE000887E85 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D235562A3B6FE000887E85 /* BaseView.swift */; };
+		C8D2355B2A3C5F9900887E85 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D2355A2A3C5F9900887E85 /* ProductTableViewCell.swift */; };
+		C8D2355E2A3C604700887E85 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = C8D2355D2A3C604700887E85 /* Then */; };
+		C8D235612A3C622600887E85 /* Subscriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D235602A3C622600887E85 /* Subscriptions.swift */; };
+		C8D235652A3C926700887E85 /* CustomCellectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D235642A3C926700887E85 /* CustomCellectionViewCell.swift */; };
+		C8D235692A3C9A7B00887E85 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D235682A3C9A7B00887E85 /* Products.swift */; };
+		C8D2356F2A3CB74F00887E85 /* TranslatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D2356E2A3CB74F00887E85 /* TranslatorVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C80652312A4464DD0099888A /* TestPrintGuideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPrintGuideVC.swift; sourceTree = "<group>"; };
+		C80652332A448C960099888A /* FifthGuideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthGuideVC.swift; sourceTree = "<group>"; };
+		C80652392A44B6160099888A /* SixthGuideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthGuideVC.swift; sourceTree = "<group>"; };
+		C806523B2A45C3920099888A /* GuideTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideTableViewCell.swift; sourceTree = "<group>"; };
+		C806523E2A45CD9F0099888A /* SeventhGuideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhGuideVC.swift; sourceTree = "<group>"; };
+		C80652412A4995F90099888A /* FindingPrintersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindingPrintersVC.swift; sourceTree = "<group>"; };
+		C80652432A4996530099888A /* PrintOptionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintOptionsVC.swift; sourceTree = "<group>"; };
+		C80652452A49E9590099888A /* PrintOptionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintOptionsTableViewCell.swift; sourceTree = "<group>"; };
+		C806524E2A4C5F060099888A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C80652512A4C5F540099888A /* FilesDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FilesDataModel.xcdatamodel; sourceTree = "<group>"; };
+		C80652582A4C6B270099888A /* Files+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Files+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C806525B2A4C735C0099888A /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		C80D18862A39E105001A30D8 /* SmartAirPrinterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartAirPrinterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80D18892A39E105001A30D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C80D188B2A39E105001A30D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C80D188D2A39E105001A30D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C80D18922A39E107001A30D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C80D18952A39E107001A30D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C80D18972A39E107001A30D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80D18A12A39E84C001A30D8 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
+		C80D18A32A39E935001A30D8 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		C80D18A92A3A16B4001A30D8 /* UIView + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Ext.swift"; sourceTree = "<group>"; };
+		C80D18AD2A3A1701001A30D8 /* NextScreenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextScreenButton.swift; sourceTree = "<group>"; };
+		C866C7B42A41D5820039FB99 /* FirstGuideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstGuideVC.swift; sourceTree = "<group>"; };
+		C866C7B62A41EBA50039FB99 /* SecondGuideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondGuideVC.swift; sourceTree = "<group>"; };
+		C8BC63972A4346B600A4BEC0 /* ThirdGuideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdGuideVC.swift; sourceTree = "<group>"; };
+		C8C693382A4F1251008D90DB /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		C8C6933A2A52D6FE008D90DB /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		C8C6933C2A5325D9008D90DB /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		C8C6933E2A532D0B008D90DB /* WebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVC.swift; sourceTree = "<group>"; };
+		C8C693412A5376B2008D90DB /* EmailPrintVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailPrintVC.swift; sourceTree = "<group>"; };
+		C8D235412A3B417F00887E85 /* UIColor + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Ext.swift"; sourceTree = "<group>"; };
+		C8D235432A3B41AE00887E85 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		C8D235452A3B4C5A00887E85 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		C8D2354C2A3B4E5600887E85 /* PrinterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterController.swift; sourceTree = "<group>"; };
+		C8D2354E2A3B4E9F00887E85 /* PhotosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosController.swift; sourceTree = "<group>"; };
+		C8D235502A3B4EC300887E85 /* FilesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesController.swift; sourceTree = "<group>"; };
+		C8D235522A3B4EDD00887E85 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		C8D235542A3B6EEA00887E85 /* PrinterNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterNavBar.swift; sourceTree = "<group>"; };
+		C8D235562A3B6FE000887E85 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		C8D2355A2A3C5F9900887E85 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		C8D235602A3C622600887E85 /* Subscriptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscriptions.swift; sourceTree = "<group>"; };
+		C8D235642A3C926700887E85 /* CustomCellectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellectionViewCell.swift; sourceTree = "<group>"; };
+		C8D235682A3C9A7B00887E85 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		C8D2356E2A3CB74F00887E85 /* TranslatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C80D18832A39E105001A30D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80D18A72A39FD61001A30D8 /* SnapKit in Frameworks */,
+				C806524F2A4C5F070099888A /* CoreData.framework in Frameworks */,
+				C8BC63962A43329000A4BEC0 /* Reachability in Frameworks */,
+				C8D2355E2A3C604700887E85 /* Then in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C806523D2A45C39E0099888A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C806523B2A45C3920099888A /* GuideTableViewCell.swift */,
+				C8C6933C2A5325D9008D90DB /* WebViewController.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C80652402A4995C30099888A /* Print Options */ = {
+			isa = PBXGroup;
+			children = (
+				C80652432A4996530099888A /* PrintOptionsVC.swift */,
+				C80652412A4995F90099888A /* FindingPrintersVC.swift */,
+				C80652452A49E9590099888A /* PrintOptionsTableViewCell.swift */,
+			);
+			path = "Print Options";
+			sourceTree = "<group>";
+		};
+		C806524D2A4C5F060099888A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C806524E2A4C5F060099888A /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C80D187D2A39E105001A30D8 = {
+			isa = PBXGroup;
+			children = (
+				C80652582A4C6B270099888A /* Files+CoreDataProperties.swift */,
+				C806525B2A4C735C0099888A /* CoreDataManager.swift */,
+				C80652502A4C5F540099888A /* FilesDataModel.xcdatamodeld */,
+				C80D18882A39E105001A30D8 /* SmartAirPrinterApp */,
+				C80D18872A39E105001A30D8 /* Products */,
+				C806524D2A4C5F060099888A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C80D18872A39E105001A30D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C80D18862A39E105001A30D8 /* SmartAirPrinterApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C80D18882A39E105001A30D8 /* SmartAirPrinterApp */ = {
+			isa = PBXGroup;
+			children = (
+				C80D189D2A39E205001A30D8 /* Application */,
+				C80D18A02A39E82E001A30D8 /* Navigation */,
+				C80D189F2A39E4D6001A30D8 /* Controllers */,
+				C80D18A82A3A169C001A30D8 /* Helpers */,
+				C80D189E2A39E22E001A30D8 /* SupportingFiles */,
+			);
+			path = SmartAirPrinterApp;
+			sourceTree = "<group>";
+		};
+		C80D189D2A39E205001A30D8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C80D18892A39E105001A30D8 /* AppDelegate.swift */,
+				C80D188B2A39E105001A30D8 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		C80D189E2A39E22E001A30D8 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C80D18922A39E107001A30D8 /* Assets.xcassets */,
+				C80D18942A39E107001A30D8 /* LaunchScreen.storyboard */,
+				C80D18972A39E107001A30D8 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		C80D189F2A39E4D6001A30D8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C866C7B32A41D5400039FB99 /* GuideVC */,
+				C8D2356A2A3CB69C00887E85 /* SecondaryControllers */,
+				C80652402A4995C30099888A /* Print Options */,
+				C80D18AB2A3A16D8001A30D8 /* Base */,
+				C8D235482A3B4D2200887E85 /* Printer */,
+				C8D2354A2A3B4D4C00887E85 /* Files */,
+				C8D235492A3B4D3D00887E85 /* Photos */,
+				C8D2354B2A3B4D7600887E85 /* Settings */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C80D18A02A39E82E001A30D8 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				C80D18A12A39E84C001A30D8 /* NavBarController.swift */,
+				C80D18A32A39E935001A30D8 /* TabBarController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		C80D18A82A3A169C001A30D8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C80D18A92A3A16B4001A30D8 /* UIView + Ext.swift */,
+				C8D235412A3B417F00887E85 /* UIColor + Ext.swift */,
+				C8D235432A3B41AE00887E85 /* Resources.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C80D18AB2A3A16D8001A30D8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C8D235452A3B4C5A00887E85 /* BaseController.swift */,
+				C8D235562A3B6FE000887E85 /* BaseView.swift */,
+				C80D18AC2A3A16EF001A30D8 /* Views */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C80D18AC2A3A16EF001A30D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C80D18AD2A3A1701001A30D8 /* NextScreenButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C866C7B32A41D5400039FB99 /* GuideVC */ = {
+			isa = PBXGroup;
+			children = (
+				C866C7B42A41D5820039FB99 /* FirstGuideVC.swift */,
+				C866C7B62A41EBA50039FB99 /* SecondGuideVC.swift */,
+				C8BC63972A4346B600A4BEC0 /* ThirdGuideVC.swift */,
+				C80652312A4464DD0099888A /* TestPrintGuideVC.swift */,
+				C80652332A448C960099888A /* FifthGuideVC.swift */,
+				C80652392A44B6160099888A /* SixthGuideVC.swift */,
+				C806523E2A45CD9F0099888A /* SeventhGuideVC.swift */,
+				C806523D2A45C39E0099888A /* Helpers */,
+			);
+			path = GuideVC;
+			sourceTree = "<group>";
+		};
+		C8C693402A537666008D90DB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C8D235682A3C9A7B00887E85 /* Products.swift */,
+				C8D235642A3C926700887E85 /* CustomCellectionViewCell.swift */,
+				C8C6933A2A52D6FE008D90DB /* TextViewController.swift */,
+				C8C6933E2A532D0B008D90DB /* WebVC.swift */,
+				C8C693412A5376B2008D90DB /* EmailPrintVC.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C8D235482A3B4D2200887E85 /* Printer */ = {
+			isa = PBXGroup;
+			children = (
+				C8D235542A3B6EEA00887E85 /* PrinterNavBar.swift */,
+				C8D2354C2A3B4E5600887E85 /* PrinterController.swift */,
+				C8C693402A537666008D90DB /* Helpers */,
+			);
+			path = Printer;
+			sourceTree = "<group>";
+		};
+		C8D235492A3B4D3D00887E85 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				C8D2354E2A3B4E9F00887E85 /* PhotosController.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		C8D2354A2A3B4D4C00887E85 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8D235502A3B4EC300887E85 /* FilesController.swift */,
+				C8C693382A4F1251008D90DB /* ImageViewController.swift */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		C8D2354B2A3B4D7600887E85 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C8D235522A3B4EDD00887E85 /* SettingsController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		C8D2355F2A3C620B00887E85 /* PaywallVC */ = {
+			isa = PBXGroup;
+			children = (
+				C80D188D2A39E105001A30D8 /* ViewController.swift */,
+				C8D2355A2A3C5F9900887E85 /* ProductTableViewCell.swift */,
+				C8D235602A3C622600887E85 /* Subscriptions.swift */,
+			);
+			path = PaywallVC;
+			sourceTree = "<group>";
+		};
+		C8D2356A2A3CB69C00887E85 /* SecondaryControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C8D2356B2A3CB6AF00887E85 /* TranslatorVC */,
+				C8D2355F2A3C620B00887E85 /* PaywallVC */,
+			);
+			path = SecondaryControllers;
+			sourceTree = "<group>";
+		};
+		C8D2356B2A3CB6AF00887E85 /* TranslatorVC */ = {
+			isa = PBXGroup;
+			children = (
+				C8D2356E2A3CB74F00887E85 /* TranslatorVC.swift */,
+			);
+			path = TranslatorVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C80D18852A39E105001A30D8 /* SmartAirPrinterApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80D189A2A39E107001A30D8 /* Build configuration list for PBXNativeTarget "SmartAirPrinterApp" */;
+			buildPhases = (
+				C80D18822A39E105001A30D8 /* Sources */,
+				C80D18832A39E105001A30D8 /* Frameworks */,
+				C80D18842A39E105001A30D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartAirPrinterApp;
+			packageProductDependencies = (
+				C80D18A62A39FD61001A30D8 /* SnapKit */,
+				C8D2355D2A3C604700887E85 /* Then */,
+				C8BC63952A43329000A4BEC0 /* Reachability */,
+			);
+			productName = SmartAirPrinterApp;
+			productReference = C80D18862A39E105001A30D8 /* SmartAirPrinterApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C80D187E2A39E105001A30D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C80D18852A39E105001A30D8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = C80D18812A39E105001A30D8 /* Build configuration list for PBXProject "SmartAirPrinterApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C80D187D2A39E105001A30D8;
+			packageReferences = (
+				C80D18A52A39FD61001A30D8 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				C8D2355C2A3C604700887E85 /* XCRemoteSwiftPackageReference "Then" */,
+				C8BC63942A43329000A4BEC0 /* XCRemoteSwiftPackageReference "Reachability" */,
+			);
+			productRefGroup = C80D18872A39E105001A30D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C80D18852A39E105001A30D8 /* SmartAirPrinterApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C80D18842A39E105001A30D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80D18962A39E107001A30D8 /* LaunchScreen.storyboard in Resources */,
+				C80D18932A39E107001A30D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C80D18822A39E105001A30D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C806525A2A4C6B270099888A /* Files+CoreDataProperties.swift in Sources */,
+				C866C7B72A41EBA50039FB99 /* SecondGuideVC.swift in Sources */,
+				C8D235422A3B417F00887E85 /* UIColor + Ext.swift in Sources */,
+				C80D188E2A39E105001A30D8 /* ViewController.swift in Sources */,
+				C8D235692A3C9A7B00887E85 /* Products.swift in Sources */,
+				C80652422A4995F90099888A /* FindingPrintersVC.swift in Sources */,
+				C8C6933F2A532D0B008D90DB /* WebVC.swift in Sources */,
+				C8D235572A3B6FE000887E85 /* BaseView.swift in Sources */,
+				C8D235442A3B41AE00887E85 /* Resources.swift in Sources */,
+				C806523C2A45C3920099888A /* GuideTableViewCell.swift in Sources */,
+				C80652462A49E9590099888A /* PrintOptionsTableViewCell.swift in Sources */,
+				C8C693392A4F1251008D90DB /* ImageViewController.swift in Sources */,
+				C8D235652A3C926700887E85 /* CustomCellectionViewCell.swift in Sources */,
+				C80D188A2A39E105001A30D8 /* AppDelegate.swift in Sources */,
+				C8BC63982A4346B600A4BEC0 /* ThirdGuideVC.swift in Sources */,
+				C8D2356F2A3CB74F00887E85 /* TranslatorVC.swift in Sources */,
+				C80652442A4996530099888A /* PrintOptionsVC.swift in Sources */,
+				C8D235512A3B4EC300887E85 /* FilesController.swift in Sources */,
+				C8D235532A3B4EDD00887E85 /* SettingsController.swift in Sources */,
+				C8D235612A3C622600887E85 /* Subscriptions.swift in Sources */,
+				C8C6933D2A5325D9008D90DB /* WebViewController.swift in Sources */,
+				C80D18AA2A3A16B4001A30D8 /* UIView + Ext.swift in Sources */,
+				C80652342A448C960099888A /* FifthGuideVC.swift in Sources */,
+				C806525C2A4C735C0099888A /* CoreDataManager.swift in Sources */,
+				C8D2354D2A3B4E5600887E85 /* PrinterController.swift in Sources */,
+				C80D18AE2A3A1701001A30D8 /* NextScreenButton.swift in Sources */,
+				C806523F2A45CD9F0099888A /* SeventhGuideVC.swift in Sources */,
+				C8C693422A5376B2008D90DB /* EmailPrintVC.swift in Sources */,
+				C80652522A4C5F550099888A /* FilesDataModel.xcdatamodeld in Sources */,
+				C8D2355B2A3C5F9900887E85 /* ProductTableViewCell.swift in Sources */,
+				C80D188C2A39E105001A30D8 /* SceneDelegate.swift in Sources */,
+				C806523A2A44B6160099888A /* SixthGuideVC.swift in Sources */,
+				C866C7B52A41D5820039FB99 /* FirstGuideVC.swift in Sources */,
+				C80D18A42A39E935001A30D8 /* TabBarController.swift in Sources */,
+				C8D235552A3B6EEA00887E85 /* PrinterNavBar.swift in Sources */,
+				C8D2354F2A3B4E9F00887E85 /* PhotosController.swift in Sources */,
+				C8D235462A3B4C5A00887E85 /* BaseController.swift in Sources */,
+				C80D18A22A39E84C001A30D8 /* NavBarController.swift in Sources */,
+				C8C6933B2A52D6FE008D90DB /* TextViewController.swift in Sources */,
+				C80652322A4464DD0099888A /* TestPrintGuideVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C80D18942A39E107001A30D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C80D18952A39E107001A30D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C80D18982A39E107001A30D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C80D18992A39E107001A30D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C80D189B2A39E107001A30D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YC36K5NGP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartAirPrinterApp/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Have you connected your printer and resolved your issues using our guide?";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Have you connected your printer and resolved your issues using our guide?";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Grant access to the camera";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "SmartAirPrinterApp needs access to save photos to your library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "SmartAirPrinterApp needs access to use photos to your library.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eLu.SmartAirPrinterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C80D189C2A39E107001A30D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YC36K5NGP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartAirPrinterApp/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Have you connected your printer and resolved your issues using our guide?";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Have you connected your printer and resolved your issues using our guide?";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Grant access to the camera";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "SmartAirPrinterApp needs access to save photos to your library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "SmartAirPrinterApp needs access to use photos to your library.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eLu.SmartAirPrinterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C80D18812A39E105001A30D8 /* Build configuration list for PBXProject "SmartAirPrinterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80D18982A39E107001A30D8 /* Debug */,
+				C80D18992A39E107001A30D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C80D189A2A39E107001A30D8 /* Build configuration list for PBXNativeTarget "SmartAirPrinterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80D189B2A39E107001A30D8 /* Debug */,
+				C80D189C2A39E107001A30D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C80D18A52A39FD61001A30D8 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		C8BC63942A43329000A4BEC0 /* XCRemoteSwiftPackageReference "Reachability" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		C8D2355C2A3C604700887E85 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C80D18A62A39FD61001A30D8 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C80D18A52A39FD61001A30D8 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		C8BC63952A43329000A4BEC0 /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8BC63942A43329000A4BEC0 /* XCRemoteSwiftPackageReference "Reachability" */;
+			productName = Reachability;
+		};
+		C8D2355D2A3C604700887E85 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8D2355C2A3C604700887E85 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		C80652502A4C5F540099888A /* FilesDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C80652512A4C5F540099888A /* FilesDataModel.xcdatamodel */,
+			);
+			currentVersion = C80652512A4C5F540099888A /* FilesDataModel.xcdatamodel */;
+			path = FilesDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C80D187E2A39E105001A30D8 /* Project object */;
+}

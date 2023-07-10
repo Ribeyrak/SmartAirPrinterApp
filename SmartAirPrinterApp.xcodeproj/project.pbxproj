@@ -61,6 +61,7 @@
 		C88639252A545C8D00757075 /* SwiftyDropbox in Frameworks */ = {isa = PBXBuildFile; productRef = C88639242A545C8D00757075 /* SwiftyDropbox */; };
 		C88639282A545DD700757075 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = C88639272A545DD700757075 /* Realm */; };
 		C886392B2A545EA700757075 /* SwiftyStoreKit in Frameworks */ = {isa = PBXBuildFile; productRef = C886392A2A545EA700757075 /* SwiftyStoreKit */; };
+		C8A25B5B2A5C259000CB1A57 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8A25B5A2A5C259000CB1A57 /* GoogleService-Info.plist */; };
 		C8AFF8582A547A2200CDDB5F /* ApplicationKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AFF8572A547A2200CDDB5F /* ApplicationKeys.swift */; };
 		C8AFF8B62A547CCE00CDDB5F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8AFF8B42A547CCE00CDDB5F /* Localizable.strings */; };
 		C8AFF8E12A547DE400CDDB5F /* LoadingViewController11111.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AFF8C42A547DE300CDDB5F /* LoadingViewController11111.swift */; };
@@ -86,7 +87,6 @@
 		C8AFF8FE2A5486A200CDDB5F /* iphoneVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C8AFF8F62A5486A200CDDB5F /* iphoneVideo.mp4 */; };
 		C8AFF8FF2A5486A200CDDB5F /* but melon.gif in Resources */ = {isa = PBXBuildFile; fileRef = C8AFF8F72A5486A200CDDB5F /* but melon.gif */; };
 		C8AFF9002A5486A200CDDB5F /* Silkscreen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8AFF8F82A5486A200CDDB5F /* Silkscreen-Regular.ttf */; };
-		C8AFF9022A5486A200CDDB5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8AFF8FA2A5486A200CDDB5F /* GoogleService-Info.plist */; };
 		C8AFF9032A5486A200CDDB5F /* PressStart2P-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8AFF8FB2A5486A200CDDB5F /* PressStart2P-Regular.ttf */; };
 		C8AFF9042A5486A200CDDB5F /* Troika.otf in Resources */ = {isa = PBXBuildFile; fileRef = C8AFF8FC2A5486A200CDDB5F /* Troika.otf */; };
 		C8AFF9052A5486A200CDDB5F /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8AFF8FD2A5486A200CDDB5F /* Poppins-Bold.ttf */; };
@@ -160,6 +160,7 @@
 		C80D18AD2A3A1701001A30D8 /* NextScreenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextScreenButton.swift; sourceTree = "<group>"; };
 		C866C7B42A41D5820039FB99 /* FirstGuideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstGuideVC.swift; sourceTree = "<group>"; };
 		C866C7B62A41EBA50039FB99 /* SecondGuideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondGuideVC.swift; sourceTree = "<group>"; };
+		C8A25B5A2A5C259000CB1A57 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C8AFF8572A547A2200CDDB5F /* ApplicationKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationKeys.swift; sourceTree = "<group>"; };
 		C8AFF8B52A547CCE00CDDB5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C8AFF8C42A547DE300CDDB5F /* LoadingViewController11111.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController11111.swift; sourceTree = "<group>"; };
@@ -185,7 +186,6 @@
 		C8AFF8F62A5486A200CDDB5F /* iphoneVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = iphoneVideo.mp4; sourceTree = "<group>"; };
 		C8AFF8F72A5486A200CDDB5F /* but melon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "but melon.gif"; sourceTree = "<group>"; };
 		C8AFF8F82A5486A200CDDB5F /* Silkscreen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Silkscreen-Regular.ttf"; sourceTree = "<group>"; };
-		C8AFF8FA2A5486A200CDDB5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C8AFF8FB2A5486A200CDDB5F /* PressStart2P-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PressStart2P-Regular.ttf"; sourceTree = "<group>"; };
 		C8AFF8FC2A5486A200CDDB5F /* Troika.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Troika.otf; sourceTree = "<group>"; };
 		C8AFF8FD2A5486A200CDDB5F /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
@@ -530,8 +530,8 @@
 			children = (
 				C8AFF8F62A5486A200CDDB5F /* iphoneVideo.mp4 */,
 				C8AFF8F72A5486A200CDDB5F /* but melon.gif */,
+				C8A25B5A2A5C259000CB1A57 /* GoogleService-Info.plist */,
 				C8AFF8F82A5486A200CDDB5F /* Silkscreen-Regular.ttf */,
-				C8AFF8FA2A5486A200CDDB5F /* GoogleService-Info.plist */,
 				C8AFF8FB2A5486A200CDDB5F /* PressStart2P-Regular.ttf */,
 				C8AFF8FC2A5486A200CDDB5F /* Troika.otf */,
 				C8AFF8FD2A5486A200CDDB5F /* Poppins-Bold.ttf */,
@@ -759,13 +759,13 @@
 				C8AFF9032A5486A200CDDB5F /* PressStart2P-Regular.ttf in Resources */,
 				C8AFF8FF2A5486A200CDDB5F /* but melon.gif in Resources */,
 				C8AFF8B62A547CCE00CDDB5F /* Localizable.strings in Resources */,
+				C8A25B5B2A5C259000CB1A57 /* GoogleService-Info.plist in Resources */,
 				C8AFF9002A5486A200CDDB5F /* Silkscreen-Regular.ttf in Resources */,
 				C8AFF9042A5486A200CDDB5F /* Troika.otf in Resources */,
 				C8AFF9052A5486A200CDDB5F /* Poppins-Bold.ttf in Resources */,
 				C8AFF8F02A547DE400CDDB5F /* SubscriptionView.xib in Resources */,
 				C8AFF8EE2A547DE400CDDB5F /* SecondViewClass.xib in Resources */,
 				C80D18932A39E107001A30D8 /* Assets.xcassets in Resources */,
-				C8AFF9022A5486A200CDDB5F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

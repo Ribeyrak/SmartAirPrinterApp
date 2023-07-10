@@ -69,8 +69,8 @@ class SubscriptionView: UIView {
     }
     
     @objc private func show_progress() {
-        progressView.isHidden = false
-        setapTimerForprogressViewsssssss()
+        //progressView.isHidden = false
+        //setapTimerForprogressViewsssssss()
     }
     
     @objc private func purchaseThisApp() {
@@ -151,7 +151,7 @@ extension SubscriptionView {
     
     private func setupka_UI() {
         //gif.animate(withGIFNamed: "but melon")
-        progressView.isHidden = true
+        //progressView.isHidden = true
         NotificationCenter.default.addObserver(self, selector: #selector(show_progress), name: Notification.Name("show_progress"), object: nil)
         continueLabel.text = NSLocalizedString("continue", comment: "").uppercased()
         continueLabel.font = UIFont(name: "Silkscreen-Regular", size: 24)
@@ -165,18 +165,18 @@ extension SubscriptionView {
     }
     
     private func setapTimerForprogressViewsssssss() {
-        progressView.progress = 0
-        timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [weak self] timer in
-            guard let self = self else { return }
-            self.countProgress += 1
-            self.progressView.progress += 0.03333333
-#warning("30 seconds")
-            if self.countProgress == 30.0 {
-                self.timer?.invalidate()
-                NotificationCenter.default.post(name: Notification.Name("show_x_button"), object: nil)
-            }
-        }
-        RunLoop.current.add(timer!, forMode: .common)
+//        progressView.progress = 0
+//        timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [weak self] timer in
+//            guard let self = self else { return }
+//            self.countProgress += 1
+//            self.progressView.progress += 0.03333333
+//#warning("30 seconds")
+//            if self.countProgress == 30.0 {
+//                self.timer?.invalidate()
+//                NotificationCenter.default.post(name: Notification.Name("show_x_button"), object: nil)
+//            }
+//        }
+//        RunLoop.current.add(timer!, forMode: .common)
     }
     
     private func setapTextSlidersssssss() {

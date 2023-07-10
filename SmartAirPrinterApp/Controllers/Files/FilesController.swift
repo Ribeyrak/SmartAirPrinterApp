@@ -96,7 +96,6 @@ extension FilesController {
     }
     
     @objc func didTapSquadeButton(sender: AnyObject) {
-        print("2")
     }
     
     @objc func didTapListButton(sender: AnyObject) {
@@ -186,7 +185,7 @@ extension FilesController {
         printController.printInfo = printInfo
         printController.printingItem = image
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
             printController.present(animated: true, completionHandler: nil)
         }
     }

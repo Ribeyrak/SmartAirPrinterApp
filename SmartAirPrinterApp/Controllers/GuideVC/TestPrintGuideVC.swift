@@ -213,12 +213,12 @@ class TestPrintGuideVC: UIViewController {
         printInfo.outputType = .general
         printController.printInfo = printInfo
         
-        // Добавьте ваш код для настройки контента печати, если необходимо
+        // Код для настройки контента печати, если необходимо
         let formatter = UIMarkupTextPrintFormatter(markupText: "<h1>Hello, world!</h1>")
         printController.printFormatter = formatter
         
         if UIDevice.current.userInterfaceIdiom == .pad {
-            // Для iPad
+            // iPad
             printController.present(from: sender.frame, in: view, animated: true) { (printController, completed, error) in
                 // Обработка завершения печати
                 if completed {
@@ -247,7 +247,7 @@ class TestPrintGuideVC: UIViewController {
                 }
             }
         } else {
-            // Для iPhone
+            // iPhone
             printController.present(animated: true) { (printController, completed, error) in
                 // Обработка завершения печати
                 if completed {

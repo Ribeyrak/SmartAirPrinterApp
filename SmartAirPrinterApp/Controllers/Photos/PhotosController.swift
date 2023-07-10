@@ -125,7 +125,7 @@ extension PhotosController: UIImagePickerControllerDelegate, UINavigationControl
                     let printController = UIPrintInteractionController.shared
                     printController.printInfo = printInfo
                     printController.printingItem = UIImage(data: imageData)
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                         printController.present(animated: true, completionHandler: nil)
                     }
                 } else {

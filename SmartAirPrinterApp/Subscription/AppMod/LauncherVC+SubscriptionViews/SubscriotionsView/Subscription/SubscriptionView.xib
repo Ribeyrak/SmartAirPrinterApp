@@ -55,7 +55,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="CwX-D4-4LI">
+                                                <progressView hidden="YES" opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="CwX-D4-4LI">
                                                     <rect key="frame" x="24" y="438" width="577" height="6"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="6" id="3pq-4q-WwU"/>

@@ -24,7 +24,7 @@
 		<string>dbapi-2</string>
 	</array>
 	<key>Pushwoosh_APPID</key>
-	<string></string>
+	<string>XXXX-XXXX</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>

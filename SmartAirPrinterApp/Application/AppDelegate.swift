@@ -7,7 +7,6 @@
 
 import UIKit
 import CoreData
-import SwiftyDropbox
 import FirebaseCore
 import Adjust
 import Pushwoosh
@@ -96,25 +95,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
     
-    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any]) -> Bool {
-        func updateUnique1() {
-            print("")
-        }
-        func updateUnique2() {
-            print("")
-        }
-        return DropboxClientsManager.handleRedirectURL(url) { authResult in
-            guard let authResult = authResult else { return }
-            switch authResult {
-            case .success(let token):
-                print("Success! User is logged into Dropbox with token: \(token)")
-            case .cancel:
-                print("User canceld OAuth flow.")
-            case .error(let error, let description):
-                print("Error \(error): \(String(describing: description))")
-            }
-        }
-    }
+//    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any]) -> Bool {
+//        func updateUnique1() {
+//            print("")
+//        }
+//        func updateUnique2() {
+//            print("")
+//        }
+//        return DropboxClientsManager.handleRedirectURL(url) { authResult in
+//            guard let authResult = authResult else { return }
+//            switch authResult {
+//            case .success(let token):
+//                print("Success! User is logged into Dropbox with token: \(token)")
+//            case .cancel:
+//                print("User canceld OAuth flow.")
+//            case .error(let error, let description):
+//                print("Error \(error): \(String(describing: description))")
+//            }
+//        }
+//    }
 
     // MARK: UISceneSession Lifecycle
 

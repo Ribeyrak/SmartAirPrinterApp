@@ -23,12 +23,23 @@ class TextViewController: UIViewController {
         textView.spellCheckingType = .yes
         textView.backgroundColor = .white
         textView.textColor = .black
+        
         return textView
+    }()
+    
+    private let placeholderLabel: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.text = "Введите текст"
+        label.font = UIFont.systemFont(ofSize: 16)
+        label.textColor = .lightGray
+        return label
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         configureViews()
+        textView.delegate = self
     }
     
     private func configureViews() {
@@ -38,6 +49,7 @@ class TextViewController: UIViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Print", style: .done, target: self, action: #selector(saveButtonTapped))
         
         view.addSubview(textView)
+        textView.addSubview(placeholderLabel)
         
         NSLayoutConstraint.activate([
             textView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
@@ -45,11 +57,24 @@ class TextViewController: UIViewController {
             textView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             textView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
         ])
+        
+        NSLayoutConstraint.activate([
+            placeholderLabel.topAnchor.constraint(equalTo: textView.topAnchor, constant: 8),
+            placeholderLabel.leadingAnchor.constraint(equalTo: textView.leadingAnchor, constant: 5),
+            placeholderLabel.trailingAnchor.constraint(equalTo: textView.trailingAnchor),
+            placeholderLabel.bottomAnchor.constraint(lessThanOrEqualTo: textView.bottomAnchor, constant: -8)
+        ])
     }
     
     @objc private func saveButtonTapped() {
         guard let text = textView.text else { return }
         delegate?.didFinishEnteringText(text)
         navigationController?.popViewController(animated: true)
+    }
+}
+
+extension TextViewController: UITextViewDelegate {
+    func textViewDidChange(_ textView: UITextView) {
+        placeholderLabel.isHidden = !textView.text.isEmpty
     }
 }

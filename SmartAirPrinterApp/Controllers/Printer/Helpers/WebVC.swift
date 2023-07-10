@@ -10,7 +10,7 @@ import WebKit
 
 class WebVC: UIViewController, WKUIDelegate {
     private var webView: WKWebView!
-    var link = "https://www.example.com"
+    var link = "https://www.google.com/"
     
     //MARK: - Lifecycle
     override func loadView() {

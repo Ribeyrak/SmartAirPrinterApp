@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97E538F2C1B15935ECA88852 /* Pods_NotificationService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A756BE0B06D20D4B96C48004 /* Pods_NotificationService.framework */; };
+		A1B53D5769AE8B98FEA4ABB2 /* Pods_SmartAirPrinterApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC00763D537FC4AB6703506 /* Pods_SmartAirPrinterApp.framework */; };
 		C80652322A4464DD0099888A /* TestPrintGuideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80652312A4464DD0099888A /* TestPrintGuideVC.swift */; };
 		C80652342A448C960099888A /* FifthGuideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80652332A448C960099888A /* FifthGuideVC.swift */; };
 		C806523A2A44B6160099888A /* SixthGuideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80652392A44B6160099888A /* SixthGuideVC.swift */; };
@@ -17,7 +19,6 @@
 		C806525A2A4C6B270099888A /* Files+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80652582A4C6B270099888A /* Files+CoreDataProperties.swift */; };
 		C806525C2A4C735C0099888A /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C806525B2A4C735C0099888A /* CoreDataManager.swift */; };
 		C809CB892A58655A00FCAAC2 /* Adjust in Frameworks */ = {isa = PBXBuildFile; productRef = C809CB882A58655A00FCAAC2 /* Adjust */; };
-		C809CB8C2A58658E00FCAAC2 /* Pushwoosh in Frameworks */ = {isa = PBXBuildFile; productRef = C809CB8B2A58658E00FCAAC2 /* Pushwoosh */; };
 		C809CB8F2A5866D900FCAAC2 /* Gifu in Frameworks */ = {isa = PBXBuildFile; productRef = C809CB8E2A5866D900FCAAC2 /* Gifu */; };
 		C80D188A2A39E105001A30D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D18892A39E105001A30D8 /* AppDelegate.swift */; };
 		C80D188C2A39E105001A30D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D188B2A39E105001A30D8 /* SceneDelegate.swift */; };
@@ -58,7 +59,6 @@
 		C886391E2A545A1700757075 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C886391D2A545A1700757075 /* FirebaseRemoteConfigSwift */; };
 		C88639202A545A1700757075 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C886391F2A545A1700757075 /* FirebaseStorage */; };
 		C88639222A545A1700757075 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C88639212A545A1700757075 /* FirebaseStorageCombine-Community */; };
-		C88639252A545C8D00757075 /* SwiftyDropbox in Frameworks */ = {isa = PBXBuildFile; productRef = C88639242A545C8D00757075 /* SwiftyDropbox */; };
 		C88639282A545DD700757075 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = C88639272A545DD700757075 /* Realm */; };
 		C886392B2A545EA700757075 /* SwiftyStoreKit in Frameworks */ = {isa = PBXBuildFile; productRef = C886392A2A545EA700757075 /* SwiftyStoreKit */; };
 		C8A25B5B2A5C259000CB1A57 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8A25B5A2A5C259000CB1A57 /* GoogleService-Info.plist */; };
@@ -139,6 +139,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		34FD21D6D24E22A3B51C4DCF /* Pods-SmartAirPrinterApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartAirPrinterApp.debug.xcconfig"; path = "Target Support Files/Pods-SmartAirPrinterApp/Pods-SmartAirPrinterApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5AC00763D537FC4AB6703506 /* Pods_SmartAirPrinterApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartAirPrinterApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C2DBC44558235CE8674975 /* Pods-NotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.release.xcconfig"; path = "Target Support Files/Pods-NotificationService/Pods-NotificationService.release.xcconfig"; sourceTree = "<group>"; };
+		A756BE0B06D20D4B96C48004 /* Pods_NotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C80652312A4464DD0099888A /* TestPrintGuideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPrintGuideVC.swift; sourceTree = "<group>"; };
 		C80652332A448C960099888A /* FifthGuideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthGuideVC.swift; sourceTree = "<group>"; };
 		C80652392A44B6160099888A /* SixthGuideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthGuideVC.swift; sourceTree = "<group>"; };
@@ -210,6 +214,8 @@
 		C8D235562A3B6FE000887E85 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		C8D235642A3C926700887E85 /* CustomCellectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellectionViewCell.swift; sourceTree = "<group>"; };
 		C8D235682A3C9A7B00887E85 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		F4527DCB69A930DC520789D3 /* Pods-NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.debug.xcconfig"; path = "Target Support Files/Pods-NotificationService/Pods-NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
+		F9C8BD168A75CEC564717509 /* Pods-SmartAirPrinterApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartAirPrinterApp.release.xcconfig"; path = "Target Support Files/Pods-SmartAirPrinterApp/Pods-SmartAirPrinterApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,8 +228,6 @@
 				C88639002A545A1700757075 /* FirebaseDatabase in Frameworks */,
 				C88638EB2A54581E00757075 /* Alamofire in Frameworks */,
 				C88639202A545A1700757075 /* FirebaseStorage in Frameworks */,
-				C809CB8C2A58658E00FCAAC2 /* Pushwoosh in Frameworks */,
-				C88639252A545C8D00757075 /* SwiftyDropbox in Frameworks */,
 				C809CB8F2A5866D900FCAAC2 /* Gifu in Frameworks */,
 				C80D18A72A39FD61001A30D8 /* SnapKit in Frameworks */,
 				C88638EE2A545A1700757075 /* FirebaseAnalytics in Frameworks */,
@@ -255,6 +259,7 @@
 				C886391E2A545A1700757075 /* FirebaseRemoteConfigSwift in Frameworks */,
 				C88638F82A545A1700757075 /* FirebaseAppDistribution-Beta in Frameworks */,
 				C8D2355E2A3C604700887E85 /* Then in Frameworks */,
+				A1B53D5769AE8B98FEA4ABB2 /* Pods_SmartAirPrinterApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,12 +267,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97E538F2C1B15935ECA88852 /* Pods_NotificationService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9DB424711A6F56743FA1B72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4527DCB69A930DC520789D3 /* Pods-NotificationService.debug.xcconfig */,
+				93C2DBC44558235CE8674975 /* Pods-NotificationService.release.xcconfig */,
+				34FD21D6D24E22A3B51C4DCF /* Pods-SmartAirPrinterApp.debug.xcconfig */,
+				F9C8BD168A75CEC564717509 /* Pods-SmartAirPrinterApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C806523D2A45C39E0099888A /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +299,8 @@
 			isa = PBXGroup;
 			children = (
 				C806524E2A4C5F060099888A /* CoreData.framework */,
+				A756BE0B06D20D4B96C48004 /* Pods_NotificationService.framework */,
+				5AC00763D537FC4AB6703506 /* Pods_SmartAirPrinterApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -293,6 +313,7 @@
 				C8AFF90B2A548A5D00CDDB5F /* NotificationService */,
 				C80D18872A39E105001A30D8 /* Products */,
 				C806524D2A4C5F060099888A /* Frameworks */,
+				A9DB424711A6F56743FA1B72 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -624,10 +645,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C80D189A2A39E107001A30D8 /* Build configuration list for PBXNativeTarget "SmartAirPrinterApp" */;
 			buildPhases = (
+				20EFD3C71E0D1054F35BF994 /* [CP] Check Pods Manifest.lock */,
 				C80D18822A39E105001A30D8 /* Sources */,
 				C80D18832A39E105001A30D8 /* Frameworks */,
 				C80D18842A39E105001A30D8 /* Resources */,
 				C8AFF9152A548A5D00CDDB5F /* Embed Foundation Extensions */,
+				1E11A080EA228F75CE77E918 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -667,11 +690,9 @@
 				C886391D2A545A1700757075 /* FirebaseRemoteConfigSwift */,
 				C886391F2A545A1700757075 /* FirebaseStorage */,
 				C88639212A545A1700757075 /* FirebaseStorageCombine-Community */,
-				C88639242A545C8D00757075 /* SwiftyDropbox */,
 				C88639272A545DD700757075 /* Realm */,
 				C886392A2A545EA700757075 /* SwiftyStoreKit */,
 				C809CB882A58655A00FCAAC2 /* Adjust */,
-				C809CB8B2A58658E00FCAAC2 /* Pushwoosh */,
 				C809CB8E2A5866D900FCAAC2 /* Gifu */,
 			);
 			productName = SmartAirPrinterApp;
@@ -682,6 +703,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8AFF9122A548A5D00CDDB5F /* Build configuration list for PBXNativeTarget "NotificationService" */;
 			buildPhases = (
+				C2B2B92887E4F640926169BA /* [CP] Check Pods Manifest.lock */,
 				C8AFF9062A548A5C00CDDB5F /* Sources */,
 				C8AFF9072A548A5C00CDDB5F /* Frameworks */,
 				C8AFF9082A548A5C00CDDB5F /* Resources */,
@@ -723,17 +745,15 @@
 			);
 			mainGroup = C80D187D2A39E105001A30D8;
 			packageReferences = (
-				C80D18A52A39FD61001A30D8 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				C80D18A52A39FD61001A30D8 /* XCRemoteSwiftPackageReference "SnapKit.git" */,
 				C8D2355C2A3C604700887E85 /* XCRemoteSwiftPackageReference "Then" */,
-				C8BC63942A43329000A4BEC0 /* XCRemoteSwiftPackageReference "Reachability" */,
-				C88638E92A54581E00757075 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				C8BC63942A43329000A4BEC0 /* XCRemoteSwiftPackageReference "Reachability.swift" */,
+				C88638E92A54581E00757075 /* XCRemoteSwiftPackageReference "Alamofire.git" */,
 				C88638EC2A545A1700757075 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				C88639232A545C8D00757075 /* XCRemoteSwiftPackageReference "SwiftyDropbox" */,
-				C88639262A545DD700757075 /* XCRemoteSwiftPackageReference "realm-swift" */,
-				C88639292A545EA700757075 /* XCRemoteSwiftPackageReference "SwiftyStoreKit" */,
+				C88639262A545DD700757075 /* XCRemoteSwiftPackageReference "realm-swift.git" */,
+				C88639292A545EA700757075 /* XCRemoteSwiftPackageReference "SwiftyStoreKit.git" */,
 				C809CB872A58655A00FCAAC2 /* XCRemoteSwiftPackageReference "ios_sdk" */,
-				C809CB8A2A58658E00FCAAC2 /* XCRemoteSwiftPackageReference "Pushwoosh-XCFramework" */,
-				C809CB8D2A5866D900FCAAC2 /* XCRemoteSwiftPackageReference "Gifu" */,
+				C809CB8D2A5866D900FCAAC2 /* XCRemoteSwiftPackageReference "Gifu.git" */,
 			);
 			productRefGroup = C80D18872A39E105001A30D8 /* Products */;
 			projectDirPath = "";
@@ -777,6 +797,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E11A080EA228F75CE77E918 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartAirPrinterApp/Pods-SmartAirPrinterApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartAirPrinterApp/Pods-SmartAirPrinterApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartAirPrinterApp/Pods-SmartAirPrinterApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20EFD3C71E0D1054F35BF994 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartAirPrinterApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2B2B92887E4F640926169BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotificationService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C80D18822A39E105001A30D8 /* Sources */ = {
@@ -989,6 +1073,7 @@
 		};
 		C80D189B2A39E107001A30D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34FD21D6D24E22A3B51C4DCF /* Pods-SmartAirPrinterApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1023,6 +1108,7 @@
 		};
 		C80D189C2A39E107001A30D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9C8BD168A75CEC564717509 /* Pods-SmartAirPrinterApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1057,6 +1143,7 @@
 		};
 		C8AFF9132A548A5D00CDDB5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4527DCB69A930DC520789D3 /* Pods-NotificationService.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1083,6 +1170,7 @@
 		};
 		C8AFF9142A548A5D00CDDB5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93C2DBC44558235CE8674975 /* Pods-NotificationService.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1148,15 +1236,7 @@
 				kind = branch;
 			};
 		};
-		C809CB8A2A58658E00FCAAC2 /* XCRemoteSwiftPackageReference "Pushwoosh-XCFramework" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Pushwoosh/Pushwoosh-XCFramework";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.0.0;
-			};
-		};
-		C809CB8D2A5866D900FCAAC2 /* XCRemoteSwiftPackageReference "Gifu" */ = {
+		C809CB8D2A5866D900FCAAC2 /* XCRemoteSwiftPackageReference "Gifu.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/kaishin/Gifu.git";
 			requirement = {
@@ -1164,7 +1244,7 @@
 				kind = branch;
 			};
 		};
-		C80D18A52A39FD61001A30D8 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		C80D18A52A39FD61001A30D8 /* XCRemoteSwiftPackageReference "SnapKit.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -1172,7 +1252,7 @@
 				minimumVersion = 5.6.0;
 			};
 		};
-		C88638E92A54581E00757075 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		C88638E92A54581E00757075 /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -1188,15 +1268,7 @@
 				minimumVersion = 9.6.0;
 			};
 		};
-		C88639232A545C8D00757075 /* XCRemoteSwiftPackageReference "SwiftyDropbox" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/dropbox/SwiftyDropbox.git";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 9.2.0;
-			};
-		};
-		C88639262A545DD700757075 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+		C88639262A545DD700757075 /* XCRemoteSwiftPackageReference "realm-swift.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-swift.git";
 			requirement = {
@@ -1204,7 +1276,7 @@
 				kind = branch;
 			};
 		};
-		C88639292A545EA700757075 /* XCRemoteSwiftPackageReference "SwiftyStoreKit" */ = {
+		C88639292A545EA700757075 /* XCRemoteSwiftPackageReference "SwiftyStoreKit.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/bizz84/SwiftyStoreKit.git";
 			requirement = {
@@ -1212,7 +1284,7 @@
 				kind = branch;
 			};
 		};
-		C8BC63942A43329000A4BEC0 /* XCRemoteSwiftPackageReference "Reachability" */ = {
+		C8BC63942A43329000A4BEC0 /* XCRemoteSwiftPackageReference "Reachability.swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ashleymills/Reachability.swift";
 			requirement = {
@@ -1236,24 +1308,19 @@
 			package = C809CB872A58655A00FCAAC2 /* XCRemoteSwiftPackageReference "ios_sdk" */;
 			productName = Adjust;
 		};
-		C809CB8B2A58658E00FCAAC2 /* Pushwoosh */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C809CB8A2A58658E00FCAAC2 /* XCRemoteSwiftPackageReference "Pushwoosh-XCFramework" */;
-			productName = Pushwoosh;
-		};
 		C809CB8E2A5866D900FCAAC2 /* Gifu */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C809CB8D2A5866D900FCAAC2 /* XCRemoteSwiftPackageReference "Gifu" */;
+			package = C809CB8D2A5866D900FCAAC2 /* XCRemoteSwiftPackageReference "Gifu.git" */;
 			productName = Gifu;
 		};
 		C80D18A62A39FD61001A30D8 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C80D18A52A39FD61001A30D8 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = C80D18A52A39FD61001A30D8 /* XCRemoteSwiftPackageReference "SnapKit.git" */;
 			productName = SnapKit;
 		};
 		C88638EA2A54581E00757075 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C88638E92A54581E00757075 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = C88638E92A54581E00757075 /* XCRemoteSwiftPackageReference "Alamofire.git" */;
 			productName = Alamofire;
 		};
 		C88638ED2A545A1700757075 /* FirebaseAnalytics */ = {
@@ -1391,24 +1458,19 @@
 			package = C88638EC2A545A1700757075 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = "FirebaseStorageCombine-Community";
 		};
-		C88639242A545C8D00757075 /* SwiftyDropbox */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C88639232A545C8D00757075 /* XCRemoteSwiftPackageReference "SwiftyDropbox" */;
-			productName = SwiftyDropbox;
-		};
 		C88639272A545DD700757075 /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C88639262A545DD700757075 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			package = C88639262A545DD700757075 /* XCRemoteSwiftPackageReference "realm-swift.git" */;
 			productName = Realm;
 		};
 		C886392A2A545EA700757075 /* SwiftyStoreKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C88639292A545EA700757075 /* XCRemoteSwiftPackageReference "SwiftyStoreKit" */;
+			package = C88639292A545EA700757075 /* XCRemoteSwiftPackageReference "SwiftyStoreKit.git" */;
 			productName = SwiftyStoreKit;
 		};
 		C8BC63952A43329000A4BEC0 /* Reachability */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C8BC63942A43329000A4BEC0 /* XCRemoteSwiftPackageReference "Reachability" */;
+			package = C8BC63942A43329000A4BEC0 /* XCRemoteSwiftPackageReference "Reachability.swift" */;
 			productName = Reachability;
 		};
 		C8D2355D2A3C604700887E85 /* Then */ = {

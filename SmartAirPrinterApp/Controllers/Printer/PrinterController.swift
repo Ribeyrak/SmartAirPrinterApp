@@ -10,6 +10,8 @@ import AVFoundation
 import MobileCoreServices
 import Contacts
 import ContactsUI
+import VisionKit
+
 
 class PrinterController: BaseController, UIPrintInteractionControllerDelegate {
     private enum Constants {
@@ -56,7 +58,6 @@ class PrinterController: BaseController, UIPrintInteractionControllerDelegate {
     
     var products: [Products] = []
     
-    
     // MARK: - Lifecycle
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -81,8 +82,8 @@ class PrinterController: BaseController, UIPrintInteractionControllerDelegate {
     }
     
     override func navBarLeftButtonHandler() {
-//        let nextVC = ViewController()
-//        navigationController?.pushViewController(nextVC, animated: false)
+        //        let nextVC = ViewController()
+        //        navigationController?.pushViewController(nextVC, animated: false)
     }
     
     override func navBarRightButtonHandler() {
@@ -137,6 +138,13 @@ extension PrinterController {
     }
     
     // Scaner Function
+    func openScanner() {
+        let scannerViewController = VNDocumentCameraViewController()
+        scannerViewController.delegate = self
+        present(scannerViewController, animated: true, completion: nil)
+    }
+    
+    // Camera
     func openCamera() {
         let imagePicker = UIImagePickerController()
         imagePicker.sourceType = .camera
@@ -148,7 +156,6 @@ extension PrinterController {
         }
         
         imagePicker.cameraFlashMode = .auto
-        
         present(imagePicker, animated: true, completion: nil)
     }
     
@@ -157,11 +164,14 @@ extension PrinterController {
         let imagePicker = UIImagePickerController()
         imagePicker.sourceType = .photoLibrary
         imagePicker.delegate = self
-        
         present(imagePicker, animated: true, completion: nil)
     }
     
-    private func presentPrintController(with image: UIImage) {
+    private func presentPrintController(with image: UIImage?) {
+        guard let image = image else {
+            return
+        }
+        
         let printController = UIPrintInteractionController.shared
         printController.delegate = self
         
@@ -209,12 +219,12 @@ extension PrinterController {
     func printTextFile(_ fileURL: URL) {
         let printController = UIPrintInteractionController.shared
         printController.delegate = self
-
+        
         let printInfo = UIPrintInfo.printInfo()
         printInfo.jobName = "Текстовый файл"
         printController.printInfo = printInfo
         printController.printingItem = fileURL
-                
+        
         printController.present(animated: true, completionHandler: nil)
     }
     
@@ -245,8 +255,7 @@ extension PrinterController: UICollectionViewDataSource {
         
         switch indexPath.row {
         case 0:
-            print("0")
-            openCamera()
+            openScanner()
         case 1 :
             print("1")
             openCamera()
@@ -278,6 +287,41 @@ extension PrinterController: UICollectionViewDataSource {
 
 // MARK: - CollectionView Delegate
 extension PrinterController: UICollectionViewDelegate {}
+
+// MARK: - Scaner
+extension PrinterController: VNDocumentCameraViewControllerDelegate {
+    func documentCameraViewController(_ controller: VNDocumentCameraViewController, didFinishWith scan: VNDocumentCameraScan) {
+        controller.dismiss(animated: true) { [weak self] in
+            guard let self = self else { return }
+            
+            // Обработка сканированного документа
+            let image = scan.imageOfPage(at: 0)
+            
+            // Сохранение изображения в CoreData
+            if let imageData = image.jpegData(compressionQuality: 1.0) {
+                let imageName = "Scan" // Здесь можно задать имя для документа
+                // Сохранение изображения в CoreData
+                CoreDataManager.shared.createFile(name: imageName, data: imageData, type: "")
+                print("Сканированный документ успешно сохранен в CoreData.")
+            }
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                // Вызов метода для печати сканированного изображения
+                self.presentPrintController(with: image)
+            }
+        }
+    }
+    
+    func documentCameraViewControllerDidCancel(_ controller: VNDocumentCameraViewController) {
+        controller.dismiss(animated: true, completion: nil)
+    }
+    
+    func documentCameraViewController(_ controller: VNDocumentCameraViewController, didFailWithError error: Error) {
+        controller.dismiss(animated: true, completion: nil)
+        // Обработка ошибки сканирования
+        print("Ошибка сканирования документа: \(error)")
+    }
+}
 
 // MARK: - Camera Delegate
 extension PrinterController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {

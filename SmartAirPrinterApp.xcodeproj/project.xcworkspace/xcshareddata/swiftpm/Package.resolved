@@ -127,15 +127,6 @@
       }
     },
     {
-      "identity" : "pushwoosh-xcframework",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Pushwoosh/Pushwoosh-XCFramework",
-      "state" : {
-        "revision" : "d0ed31a8bf7eebd3fb626037ea20ba3006509c98",
-        "version" : "6.4.13"
-      }
-    },
-    {
       "identity" : "reachability.swift",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ashleymills/Reachability.swift",
@@ -178,15 +169,6 @@
       "state" : {
         "revision" : "f25867a208f459d3c5a06935dceb9083b11cd539",
         "version" : "1.22.0"
-      }
-    },
-    {
-      "identity" : "swiftydropbox",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/dropbox/SwiftyDropbox.git",
-      "state" : {
-        "revision" : "5bda01b02a87568801a5b2af07e3fdb075dce69c",
-        "version" : "9.2.0"
       }
     },
     {

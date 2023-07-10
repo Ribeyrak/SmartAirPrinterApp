@@ -17,13 +17,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         Self.shared = self
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        window?.rootViewController = LaunchVideoViewController()
-        //window?.rootViewController = TabBarController()
+        //window?.rootViewController = LaunchVideoViewController()
+        window?.rootViewController = TabBarController()
         window?.makeKeyAndVisible()
     }
 
     func l0adApp() -> Void {
-        let tabBarVC = LoadingViewController11111()
+        let tabBarVC = TabBarController()
         let navVC = UINavigationController(rootViewController: tabBarVC)
         navVC.setNavigationBarHidden(true, animated: false)
         navVC.navigationBar.isHidden = true

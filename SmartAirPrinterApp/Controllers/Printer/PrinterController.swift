@@ -71,7 +71,7 @@ class PrinterController: BaseController, UIPrintInteractionControllerDelegate {
         
         
         let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1),
-                                               heightDimension: .fractionalHeight(1/6))
+                                               heightDimension: .fractionalHeight(1/5))
         let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [item])
         
         let section = NSCollectionLayoutSection(group: group)
@@ -81,8 +81,8 @@ class PrinterController: BaseController, UIPrintInteractionControllerDelegate {
     }
     
     override func navBarLeftButtonHandler() {
-        let nextVC = ViewController()
-        navigationController?.pushViewController(nextVC, animated: false)
+//        let nextVC = ViewController()
+//        navigationController?.pushViewController(nextVC, animated: false)
     }
     
     override func navBarRightButtonHandler() {
@@ -113,11 +113,11 @@ extension PrinterController {
         
         title = R.Strings.NavBar.printer
         
-        addNavBarButton(at: .left, image: R.Images.Common.dollarButton)
+        //addNavBarButton(at: .left, image: R.Images.Common.dollarButton)
         addNavBarButton(at: .right, image: R.Images.Common.infoButton)
         
         collectionView.dataSource = self
-        //collectionView.delegate = self
+        collectionView.delegate = self
         collectionView.register(CustomCollectionViewCell.self,
                                 forCellWithReuseIdentifier: CustomCollectionViewCell.identifier)
         
@@ -131,6 +131,9 @@ extension PrinterController {
             Products(image: Constants.image7, title: Constants.title7, descript: Constants.description7),
             Products(image: Constants.image8, title: Constants.title8, descript: Constants.description8)
         ]
+        
+        let filesController = FilesController()
+        filesController.delegate = self
     }
     
     // Scaner Function
@@ -169,7 +172,7 @@ extension PrinterController {
         printController.printInfo = printInfo
         printController.printingItem = image
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
             printController.present(animated: true, completionHandler: nil)
         }
     }
@@ -240,7 +243,6 @@ extension PrinterController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let cell = collectionView.cellForItem(at: indexPath) as! CustomCollectionViewCell
         
-        cell.layer.borderColor = UIColor.blue.cgColor
         switch indexPath.row {
         case 0:
             print("0")
@@ -272,12 +274,6 @@ extension PrinterController: UICollectionViewDataSource {
             break
         }
     }
-    
-    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
-        let cell = collectionView.cellForItem(at: indexPath as IndexPath) as! CustomCollectionViewCell
-        cell.layer.borderColor = UIColor.white.withAlphaComponent(0.5).cgColor
-        collectionView.deselectItem(at: indexPath, animated: true)
-    }
 }
 
 // MARK: - CollectionView Delegate
@@ -291,7 +287,7 @@ extension PrinterController: UIImagePickerControllerDelegate, UINavigationContro
             if let imageData = image.jpegData(compressionQuality: 1.0) {
                 let imageName = image.description
                 // Сохранение изображения в CoreData
-                CoreDataManager.shared.createFile(name: imageName, data: imageData)
+                CoreDataManager.shared.createFile(name: imageName, data: imageData, type: "")
                 print("Изображение успешно сохранено в CoreData.")
             }
             // Use the captured image for printing
@@ -362,13 +358,21 @@ extension PrinterController: CNContactPickerDelegate {
         let printFormatter = UIMarkupTextPrintFormatter(markupText: contactString ?? "")
         printController.printFormatter = printFormatter
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
             printController.present(animated: true, completionHandler: nil)
         }
     }
     
     func contactPickerDidCancel(_ picker: CNContactPickerViewController) {
         // Обработка отмены выбора контакта
-        print("Выбор контакта отменен")
+    }
+}
+
+extension PrinterController: FilesControllerDelegate {
+    func didTapOpenICloud() {
+        openICloud()
+    }
+    func didTapOpenGallery() {
+        openGallery()
     }
 }

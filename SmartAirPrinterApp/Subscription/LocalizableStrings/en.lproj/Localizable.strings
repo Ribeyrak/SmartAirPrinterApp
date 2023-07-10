@@ -1,0 +1,98 @@
+/* 
+  Localizable.strings
+  ModsApp
+
+  Created by David on 17.04.2023.
+  
+*/
+"continue" = "Continue";
+"textFirst" = "TEXT TEXT TEXT TEXT TEXT TEXT";
+"textSecond" = "Select weapons
+to add";
+
+"slider_one" = "melon playground
+mods";
+"slider_two" = "access all new
+characters";
+"slider_three" = "unlock the coolest
+cars";
+"slider_four" = "get the latest mod
+collection";
+"slider_five" = "defeat enemies with
+weapons";
+
+
+"restore" = "Restore";
+"price_label" = "Start your 3-days FREE \n Then $5.99/week";
+"price_label_bold" = " $5.99";
+
+"agreement_full_text" = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+"terms_of_use" = "Terms of Use";
+"privacy_policy" = "Privacy policy";
+
+"error_iap" = "Error";
+"inval_prod_id" = "Invalid product";
+"faledRestore" = "Faled to restore";
+"notPurchases" = "You not have purchases";
+
+"melonMods" = "MELON MODS";
+"emptyLabel" = "NO SAVED WORKS YET";
+
+"downloadLabel" = "download";
+"shareLabel" = "share";
+"startEditModeLabel" = "Start Edit Mode";
+"modDescription" = "Mod Description";
+"subsInfo" = "SUBSCRIPTION INFO";
+"settings" = "settings";
+"categoriesLabel" = "categories";
+"loading" = "loading";
+
+"My_Works" = "My Works";
+"Mods_" = "Mods";
+"Editor_" = "Editor";
+
+"MISC TEMPLATES" = "MISC TEMPLATES";
+"LIVING TEMPLATES" = "LIVING TEMPLATES";
+
+"SET ITEM SETTINGS" = "SET ITEM SETTINGS";
+"SET COLLIDERS" = "SET COLLIDERS";
+"SELECT TEXTURE" = "SELECT TEXTURE";
+"SET PROPRTIES" = "SET PROPRTIES";
+
+"search" = "Search";
+
+
+"success" = "Success";
+"success_completed" = "Action done!";
+
+"show_all" = "Show all";
+
+"Subscription" = "Subscription";
+"watchVideo" = "Watch Video";
+
+"firstLabel_s" = "Hooray!";
+"descriptionTitle_s" = "You have received an exclusive offer for a subscription to Melon Playground!
+Our paid subscription will give you access to the full collection of tools and skins, which will help you create even more amazing scenes. ";
+"thirdLabel_s" = "Click the \"Subscribe\" button and start creating your masterpieces today!";
+"actionTitle_s" = "Subscribe!";
+
+"firstLabel_w" = "Welcome to Melon Playground.";
+"descriptionTitle_w" = "To start playing and enjoying this exciting platform, we invite you to watch our short video and get an amazing prize.";
+"thirdLabel_w" = "Click on the \"Watch now\" button and enjoy our game to the fullest!";
+"actionTitle_w" = "Watch now";
+
+"Enabled" = "Enabled";
+"Disabled" = "Disabled";
+"saveChange" = "Do you want to save changes?";
+"cancel" = "Cancel";
+
+"nothingToSave" = "Nothing to saved";
+
+"" = "";
+"" = "";
+"" = "";
+
+"" = "";
+"" = "";
+"" = "";
+"" = "";

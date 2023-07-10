@@ -55,8 +55,8 @@ class PhotosController: BaseController {
     
     // MARK: - Functions
     override func navBarLeftButtonHandler() {
-        let nextVC = ViewController()
-        navigationController?.pushViewController(nextVC, animated: false)
+//        let nextVC = ViewController()
+//        navigationController?.pushViewController(nextVC, animated: false)
     }
     
     override func navBarRightButtonHandler() {
@@ -82,7 +82,7 @@ extension PhotosController {
         super.configureAppearance()
         
         title = R.Strings.NavBar.photos
-        addNavBarButton(at: .left, image: R.Images.Common.dollarButton)
+        //addNavBarButton(at: .left, image: R.Images.Common.dollarButton)
         addNavBarButton(at: .right, image: R.Images.Common.plusButton)
         
         openGalleryButton.addTarget(self, action: #selector(openGallery), for: .touchUpInside)
@@ -112,7 +112,7 @@ extension PhotosController: UIImagePickerControllerDelegate, UINavigationControl
             if let imageData = selectedImage.jpegData(compressionQuality: 1.0) {
                 let imageName = "Photo \(UUID().uuidString)"
                 // Сохранение изображения в CoreData
-                CoreDataManager.shared.createFile(name: imageName, data: imageData)
+                CoreDataManager.shared.createFile(name: imageName, data: imageData, type: "")
                 print("Изображение успешно сохранено в CoreData.")
                 imageCounter += 1
                 
@@ -125,7 +125,7 @@ extension PhotosController: UIImagePickerControllerDelegate, UINavigationControl
                     let printController = UIPrintInteractionController.shared
                     printController.printInfo = printInfo
                     printController.printingItem = UIImage(data: imageData)
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
                         printController.present(animated: true, completionHandler: nil)
                     }
                 } else {

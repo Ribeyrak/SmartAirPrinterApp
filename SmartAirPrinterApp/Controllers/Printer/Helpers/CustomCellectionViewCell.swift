@@ -7,6 +7,11 @@
 
 import UIKit
 import SnapKit
+import Then
+
+protocol ReusableView: AnyObject {
+    static var identifier: String { get }
+}
 
 class CustomCollectionViewCell: UICollectionViewCell {
     

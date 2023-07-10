@@ -174,6 +174,7 @@ extension FilesController {
         imagePicker.delegate = self
         present(imagePicker, animated: true, completion: nil)
     }
+    
     private func presentPrintController(with image: UIImage) {
         let printController = UIPrintInteractionController.shared
         printController.delegate = self
@@ -189,6 +190,7 @@ extension FilesController {
             printController.present(animated: true, completionHandler: nil)
         }
     }
+    
     func openICloud() {
         let documentPicker = UIDocumentPickerViewController(documentTypes: [String(kUTTypeItem)], in: .import)
         documentPicker.delegate = self

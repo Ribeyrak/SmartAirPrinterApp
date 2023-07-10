@@ -17,8 +17,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         Self.shared = self
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        //window?.rootViewController = LaunchVideoViewController()
-        window?.rootViewController = TabBarController()
+        window?.rootViewController = LaunchVideoViewController()
+        //window?.rootViewController = TabBarController()
         window?.makeKeyAndVisible()
     }
 

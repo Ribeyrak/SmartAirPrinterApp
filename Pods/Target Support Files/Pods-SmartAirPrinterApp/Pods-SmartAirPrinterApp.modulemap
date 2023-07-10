@@ -1,0 +1,6 @@
+framework module Pods_SmartAirPrinterApp {
+  umbrella header "Pods-SmartAirPrinterApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

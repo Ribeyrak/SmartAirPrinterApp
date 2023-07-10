@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7B02E6EAC0B3A54BD069DBD5F9205870 /* PushwooshXCFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F3DDAEA9DF0D20344EE857816CFEFF08 /* Build configuration list for PBXAggregateTarget "PushwooshXCFramework" */;
+			buildPhases = (
+				9D989BEBD391BCD26D4EBD33E0D75449 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = PushwooshXCFramework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		232F905F6D3C127025B95DCE86195A10 /* Pods-SmartAirPrinterApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F9E25C5CE0193BA4DFADA47C1C4EC2 /* Pods-SmartAirPrinterApp-dummy.m */; };
+		3D1D690FD6A278B1587E6AD47E6BD8DA /* Pods-SmartAirPrinterApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F32DF76C581AAC4059325BEFE4A12CCA /* Pods-SmartAirPrinterApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F27BCBA8A8411BAEB8F4224AA6ECFF2 /* Pods-NotificationService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA2B3C3ADA72CE7488B032511A2E494 /* Pods-NotificationService-dummy.m */; };
+		410EE5ABD0F090D8298B8795B35151D7 /* Pods-NotificationService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E51B679021F81140833343848A4E0CC /* Pods-NotificationService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB5F90E3C0AD6A50D2CBBBAC7D1537E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EDD54756C87F96B2A848DE35DAA158EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3206088B7D151EEC1BED3BA068DF6632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B02E6EAC0B3A54BD069DBD5F9205870;
+			remoteInfo = PushwooshXCFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DCB94CE9DF7D962F1598981995C386 /* Pods-SmartAirPrinterApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartAirPrinterApp-Info.plist"; sourceTree = "<group>"; };
+		0E51B679021F81140833343848A4E0CC /* Pods-NotificationService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NotificationService-umbrella.h"; sourceTree = "<group>"; };
+		16D31F2008F439F5818BC594F6E5F4B0 /* Pods-SmartAirPrinterApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartAirPrinterApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		27DCAFA339F8DB7DFF2D0A76AE1E560D /* Pods-NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
+		2C437A86080DDE3A49EC685E38396DF2 /* Pods-SmartAirPrinterApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartAirPrinterApp-frameworks.sh"; sourceTree = "<group>"; };
+		429A0090C630D836DD57A7278F9AACA7 /* Pods-SmartAirPrinterApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartAirPrinterApp.release.xcconfig"; sourceTree = "<group>"; };
+		4304F9E1A73E9D4E0DFEEA7BB8B9C68D /* Pods-SmartAirPrinterApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SmartAirPrinterApp.modulemap"; sourceTree = "<group>"; };
+		563E0A0FEB65B564D6A02A0A948B2E62 /* Pods-NotificationService */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NotificationService"; path = Pods_NotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5661B6ADC51CD2ECE71BB897E6FF73BE /* Pods-NotificationService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotificationService-Info.plist"; sourceTree = "<group>"; };
+		5C41FCEFF52A8B9710F9A609E32A95F5 /* PushwooshXCFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PushwooshXCFramework.debug.xcconfig; sourceTree = "<group>"; };
+		6E9FC847445E3521AE3BB54567CDCA90 /* Pushwoosh.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Pushwoosh.xcframework; path = XCFramework/Pushwoosh.xcframework; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E54855C7197171FDBED5AD0F7D503B1 /* Pods-SmartAirPrinterApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartAirPrinterApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8758740DBA6844FD7EB80E8D80BB231F /* Pods-NotificationService-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotificationService-acknowledgements.plist"; sourceTree = "<group>"; };
+		9529EE4A0160FF55A901737011D967FC /* Pods-NotificationService-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NotificationService-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F2B01BE896FE9F9B72811A4D4871B5B /* Pods-NotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotificationService.release.xcconfig"; sourceTree = "<group>"; };
+		C2D51E8E7D971A2A8960E2027FB8F23B /* PushwooshXCFramework-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "PushwooshXCFramework-xcframeworks.sh"; sourceTree = "<group>"; };
+		C6F9E25C5CE0193BA4DFADA47C1C4EC2 /* Pods-SmartAirPrinterApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartAirPrinterApp-dummy.m"; sourceTree = "<group>"; };
+		CBA2B3C3ADA72CE7488B032511A2E494 /* Pods-NotificationService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NotificationService-dummy.m"; sourceTree = "<group>"; };
+		DD123AB3EFC0E8DF5D50E20184BAE294 /* PushwooshXCFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PushwooshXCFramework.release.xcconfig; sourceTree = "<group>"; };
+		E588CE3B0266A7CF652B63A90D73744B /* Pods-NotificationService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NotificationService.modulemap"; sourceTree = "<group>"; };
+		F32DF76C581AAC4059325BEFE4A12CCA /* Pods-SmartAirPrinterApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartAirPrinterApp-umbrella.h"; sourceTree = "<group>"; };
+		F40FC34C7C5E8C5C9693E09A181DA0F1 /* Pods-SmartAirPrinterApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartAirPrinterApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FED533E5E961E86954D74B509B8864B8 /* Pods-SmartAirPrinterApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SmartAirPrinterApp"; path = Pods_SmartAirPrinterApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23669E84CBA04AD423D4EEF40FDBC347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5F90E3C0AD6A50D2CBBBAC7D1537E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE88A7C8952356E4CD9F54C8DC604BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD54756C87F96B2A848DE35DAA158EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		099330A01208E7537F09C7E75B2A982A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23A9453429FF44693975298279B01EF2 /* PushwooshXCFramework */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		23A9453429FF44693975298279B01EF2 /* PushwooshXCFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF8334C95BE95E10E59C39D1ABD300 /* Core */,
+				9BCCC23A518BBB982F1D68BEF558A002 /* Support Files */,
+			);
+			name = PushwooshXCFramework;
+			path = PushwooshXCFramework;
+			sourceTree = "<group>";
+		};
+		406A4F72E214E454CD202FE99069B24F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B68C4FCF6E2D15D3881CFF83ACEFC39 /* Pods-NotificationService */,
+				BDB931490EBDC221BB3730D46EEF7D33 /* Pods-SmartAirPrinterApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6B68C4FCF6E2D15D3881CFF83ACEFC39 /* Pods-NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				E588CE3B0266A7CF652B63A90D73744B /* Pods-NotificationService.modulemap */,
+				9529EE4A0160FF55A901737011D967FC /* Pods-NotificationService-acknowledgements.markdown */,
+				8758740DBA6844FD7EB80E8D80BB231F /* Pods-NotificationService-acknowledgements.plist */,
+				CBA2B3C3ADA72CE7488B032511A2E494 /* Pods-NotificationService-dummy.m */,
+				5661B6ADC51CD2ECE71BB897E6FF73BE /* Pods-NotificationService-Info.plist */,
+				0E51B679021F81140833343848A4E0CC /* Pods-NotificationService-umbrella.h */,
+				27DCAFA339F8DB7DFF2D0A76AE1E560D /* Pods-NotificationService.debug.xcconfig */,
+				9F2B01BE896FE9F9B72811A4D4871B5B /* Pods-NotificationService.release.xcconfig */,
+			);
+			name = "Pods-NotificationService";
+			path = "Target Support Files/Pods-NotificationService";
+			sourceTree = "<group>";
+		};
+		8C68E15C9FC3ECA85470C2CEEFDE2A0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				563E0A0FEB65B564D6A02A0A948B2E62 /* Pods-NotificationService */,
+				FED533E5E961E86954D74B509B8864B8 /* Pods-SmartAirPrinterApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BCCC23A518BBB982F1D68BEF558A002 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2D51E8E7D971A2A8960E2027FB8F23B /* PushwooshXCFramework-xcframeworks.sh */,
+				5C41FCEFF52A8B9710F9A609E32A95F5 /* PushwooshXCFramework.debug.xcconfig */,
+				DD123AB3EFC0E8DF5D50E20184BAE294 /* PushwooshXCFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PushwooshXCFramework";
+			sourceTree = "<group>";
+		};
+		A2CF8334C95BE95E10E59C39D1ABD300 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B748E6649741070ACAAB0C58613C55EA /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B748E6649741070ACAAB0C58613C55EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E9FC847445E3521AE3BB54567CDCA90 /* Pushwoosh.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDB931490EBDC221BB3730D46EEF7D33 /* Pods-SmartAirPrinterApp */ = {
+			isa = PBXGroup;
+			children = (
+				4304F9E1A73E9D4E0DFEEA7BB8B9C68D /* Pods-SmartAirPrinterApp.modulemap */,
+				7E54855C7197171FDBED5AD0F7D503B1 /* Pods-SmartAirPrinterApp-acknowledgements.markdown */,
+				16D31F2008F439F5818BC594F6E5F4B0 /* Pods-SmartAirPrinterApp-acknowledgements.plist */,
+				C6F9E25C5CE0193BA4DFADA47C1C4EC2 /* Pods-SmartAirPrinterApp-dummy.m */,
+				2C437A86080DDE3A49EC685E38396DF2 /* Pods-SmartAirPrinterApp-frameworks.sh */,
+				01DCB94CE9DF7D962F1598981995C386 /* Pods-SmartAirPrinterApp-Info.plist */,
+				F32DF76C581AAC4059325BEFE4A12CCA /* Pods-SmartAirPrinterApp-umbrella.h */,
+				F40FC34C7C5E8C5C9693E09A181DA0F1 /* Pods-SmartAirPrinterApp.debug.xcconfig */,
+				429A0090C630D836DD57A7278F9AACA7 /* Pods-SmartAirPrinterApp.release.xcconfig */,
+			);
+			name = "Pods-SmartAirPrinterApp";
+			path = "Target Support Files/Pods-SmartAirPrinterApp";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				099330A01208E7537F09C7E75B2A982A /* Pods */,
+				8C68E15C9FC3ECA85470C2CEEFDE2A0C /* Products */,
+				406A4F72E214E454CD202FE99069B24F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		798C6A9DDDE42E9C8971FFB82A942D7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1D690FD6A278B1587E6AD47E6BD8DA /* Pods-SmartAirPrinterApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7944166441E38424C2C39571F80637C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410EE5ABD0F090D8298B8795B35151D7 /* Pods-NotificationService-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		78BD8CDB1503A18D2CF482D9EBE70806 /* Pods-SmartAirPrinterApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC531C9BB65F8E84CD0D956BCC256F9 /* Build configuration list for PBXNativeTarget "Pods-SmartAirPrinterApp" */;
+			buildPhases = (
+				798C6A9DDDE42E9C8971FFB82A942D7E /* Headers */,
+				9C10D1C024EC2DD0F733B447C1E5EDA1 /* Sources */,
+				6FE88A7C8952356E4CD9F54C8DC604BE /* Frameworks */,
+				7A84C1B9B04BDFA85F599337575141FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BC688AF096F66CF77EFC9669621BCC1 /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartAirPrinterApp";
+			productName = Pods_SmartAirPrinterApp;
+			productReference = FED533E5E961E86954D74B509B8864B8 /* Pods-SmartAirPrinterApp */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2816A8094E8D1BCDC0C50D2C832730A /* Pods-NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 442E4308BBF13E810D2E1B6B9D368E2D /* Build configuration list for PBXNativeTarget "Pods-NotificationService" */;
+			buildPhases = (
+				B7944166441E38424C2C39571F80637C /* Headers */,
+				BC6EF48D1A9693018A4C089322AD8401 /* Sources */,
+				23669E84CBA04AD423D4EEF40FDBC347 /* Frameworks */,
+				AF6B23228019145AD90273F2D9979133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NotificationService";
+			productName = Pods_NotificationService;
+			productReference = 563E0A0FEB65B564D6A02A0A948B2E62 /* Pods-NotificationService */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8C68E15C9FC3ECA85470C2CEEFDE2A0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2816A8094E8D1BCDC0C50D2C832730A /* Pods-NotificationService */,
+				78BD8CDB1503A18D2CF482D9EBE70806 /* Pods-SmartAirPrinterApp */,
+				7B02E6EAC0B3A54BD069DBD5F9205870 /* PushwooshXCFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A84C1B9B04BDFA85F599337575141FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6B23228019145AD90273F2D9979133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D989BEBD391BCD26D4EBD33E0D75449 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/PushwooshXCFramework/PushwooshXCFramework-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/PushwooshXCFramework/PushwooshXCFramework-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/PushwooshXCFramework/PushwooshXCFramework-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C10D1C024EC2DD0F733B447C1E5EDA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232F905F6D3C127025B95DCE86195A10 /* Pods-SmartAirPrinterApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6EF48D1A9693018A4C089322AD8401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F27BCBA8A8411BAEB8F4224AA6ECFF2 /* Pods-NotificationService-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BC688AF096F66CF77EFC9669621BCC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PushwooshXCFramework;
+			target = 7B02E6EAC0B3A54BD069DBD5F9205870 /* PushwooshXCFramework */;
+			targetProxy = 3206088B7D151EEC1BED3BA068DF6632 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3970486A7EB05540B2E94E313031BD55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F2B01BE896FE9F9B72811A4D4871B5B /* Pods-NotificationService.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NotificationService/Pods-NotificationService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotificationService/Pods-NotificationService.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5961D11FF2BDC2E21D10DA5B175EFC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27DCAFA339F8DB7DFF2D0A76AE1E560D /* Pods-NotificationService.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NotificationService/Pods-NotificationService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotificationService/Pods-NotificationService.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E6444444C1894622EDD2DA618911D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD123AB3EFC0E8DF5D50E20184BAE294 /* PushwooshXCFramework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		97101A430B29F4E8B7C923087034030F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F40FC34C7C5E8C5C9693E09A181DA0F1 /* Pods-SmartAirPrinterApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartAirPrinterApp/Pods-SmartAirPrinterApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartAirPrinterApp/Pods-SmartAirPrinterApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CCAF57597A79F6DC39955E56F9BDE12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 429A0090C630D836DD57A7278F9AACA7 /* Pods-SmartAirPrinterApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartAirPrinterApp/Pods-SmartAirPrinterApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartAirPrinterApp/Pods-SmartAirPrinterApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF66AE61C58A77EF6B88BF24C5E39974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C41FCEFF52A8B9710F9A609E32A95F5 /* PushwooshXCFramework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DC531C9BB65F8E84CD0D956BCC256F9 /* Build configuration list for PBXNativeTarget "Pods-SmartAirPrinterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97101A430B29F4E8B7C923087034030F /* Debug */,
+				CCAF57597A79F6DC39955E56F9BDE12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		442E4308BBF13E810D2E1B6B9D368E2D /* Build configuration list for PBXNativeTarget "Pods-NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5961D11FF2BDC2E21D10DA5B175EFC49 /* Debug */,
+				3970486A7EB05540B2E94E313031BD55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3DDAEA9DF0D20344EE857816CFEFF08 /* Build configuration list for PBXAggregateTarget "PushwooshXCFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF66AE61C58A77EF6B88BF24C5E39974 /* Debug */,
+				7E6444444C1894622EDD2DA618911D29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

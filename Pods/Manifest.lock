@@ -1,0 +1,18 @@
+PODS:
+  - PushwooshXCFramework (6.4.13):
+    - PushwooshXCFramework/Core (= 6.4.13)
+  - PushwooshXCFramework/Core (6.4.13)
+
+DEPENDENCIES:
+  - PushwooshXCFramework
+
+SPEC REPOS:
+  trunk:
+    - PushwooshXCFramework
+
+SPEC CHECKSUMS:
+  PushwooshXCFramework: 97093e7f5b9688f6fe99774e4330891813b2e2d0
+
+PODFILE CHECKSUM: 96a3432545ea339f30b72030b865cb2bb0475dcf
+
+COCOAPODS: 1.11.3
